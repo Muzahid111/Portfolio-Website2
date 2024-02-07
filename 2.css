@@ -1,0 +1,71 @@
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+    color: rgb(112, 154, 154);
+}
+h2{
+    font-size: 40px;
+}
+.text{
+    color: rgb(213, 164, 164);
+}
+
+#section{
+    display: flex;
+    padding: 5%;
+    
+  
+}
+.section1{
+    background-image: url(file:///C:/Users/user/Desktop/img/blue1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1900px;
+}
+
+.img{
+    border-radius: 50rem;
+    width: 400px;
+}
+.half-width{
+    width: 50%;
+}
+
+.link{
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 0.5rem;
+    background-image: linear-gradient(blue, blueviolet);
+    color: white;
+    font-weight: 700;
+}
+.section3{
+    text-align: center;
+    padding:0 20%;
+}
+.parent{
+    display: flex;
+    padding: 0 10%;
+}
+.child{
+    box-shadow: 10px 5px 40px rgb(59, 58, 58);
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px  50px 0;
+    border-left: 5px solid;
+    border-image: linear-gradient(#00f,cyan) 0 100%;
+}
+footer{
+    text-align: center;
+}
+@media (max-width: 992px) {
+    section{
+        flex-direction: column;
+    }
+    .parent{
+        flex-direction: column;
+    }
+        
+}
